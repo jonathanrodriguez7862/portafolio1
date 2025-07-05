@@ -1,0 +1,113 @@
+
+* { box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fefcea, #f1da36);
+  color: #333;
+}
+header {
+  background: #ffe600;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #2e2e2e;
+}
+main {
+  padding: 2rem;
+}
+footer {
+  background-color: #2e2e2e;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.btn-ir, .btn-volver {
+  background-color: #ff8a00;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn-ir:hover, .btn-volver:hover {
+  background-color: #e27100;
+}
+section.presentacion {
+  text-align: center;
+}
+section h2 {
+  font-size: 1.5rem;
+}
+ul {
+  list-style: circle;
+  padding-left: 1.5rem;
+}
+.galeria-perfil {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+ 
+}
+.galeria-perfil img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.galeria-perfil p {
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  background: #fff6d5;
+  border-left: 4px solid #ffc107;
+  font-style: italic;
+}
+
+section.servicio {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px dashed #ffb300;
+}
+.galeria-servicio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.galeria-servicio img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.galeria-servicio img:hover {
+  transform: scale(1.05);
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.btn-nav {
+  background-color: #ffffff;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffb300;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-nav:hover {
+  background-color: #ffb300;
+  color: white;
+}
